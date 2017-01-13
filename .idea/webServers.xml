@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="eb7fcd40-af62-410c-8120-97449acb5826" name="Project on S2 L" url="http://s2lsolutions.com">
+        <fileTransfer host="s2lsolutions.com" port="22" rootFolder="/public_html/project.s2lsolutions.com" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

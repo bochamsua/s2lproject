@@ -702,7 +702,7 @@ class PostcaseComponent extends CookieComponent {
         <table bgcolor='#FFF' border='0' cellspacing='10' cellpadding='0' width='100%'>
         <tr>
         <td align='left' valign='top' style='line-height:22px;font:14px Arial;'>
-        <font color='#737373'><b>Title: </b></font> <a href='" . $domain . "users/login/?dashboard#details/" . $case_uniq_id . "' target='_blank' style='text-decoration:underline;color:#F86A0C;'>" . stripslashes($case_title) . "</a>
+        <font color='#737373'><b>Title: </b></font> <a href='" . $domain . "users/login/?dashboard#details/" . $case_uniq_id . "' target='_blank' style='text-decoration:underline;color:#F86A0C;'>" . $case_title . "</a>
         <br/><br/>
         <font color='#737373'><b>Project:</b></font> " . $projName . "
         </td>

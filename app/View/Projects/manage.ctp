@@ -85,7 +85,7 @@
 	<div class="col-lg-4 proj_mng_div">
 		<div class="col-lg-12 contain usr_mng_div <?php if($projtype == 'inactive') { ?>inactv <?php } ?>">
 		    <?php $prj_name = ucwords(trim($prjArr['Project']['name']));
-			$len = 23;
+			$len = 100;
 			$prj_name_shrt = $this->Format->shortLength($prj_name,$len);
 			$value_format = $this->Format->formatText($prj_name);
 			$value_raw = html_entity_decode($value_format, ENT_QUOTES);

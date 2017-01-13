@@ -116,7 +116,7 @@ class FormatHelper extends AppHelper {
 		$value = str_replace("�","\"",$value);
 		//$value = preg_replace('/[^(\x20-\x7F)\x0A]*/','', $value);
 		$value = $this->fixtags($value);
-		$value = html_entity_decode($value, ENT_QUOTES);
+		//$value = html_entity_decode($value, ENT_QUOTES);
 		return stripslashes($value);
 	}
 	function getBrowser(){

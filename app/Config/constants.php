@@ -46,10 +46,10 @@ define("SMTP_PWORD", "******");
 define("WEB_DOMAIN", "project.s2lsolutions.com"); //ex. demo.orangescrum.com
 define('FROM_EMAIL_NOTIFY', 'info@s2lsolutions.com'); //(REQUIRED)
 define('SUPPORT_EMAIL', 'info@s2lsolutions.com'); //(REQUIRED) From Email
-define('FROM_EMAIL',  'S2LSolutions <'.SUPPORT_EMAIL.'>');
+define('FROM_EMAIL',  'S2LSolutions Project <'.SUPPORT_EMAIL.'>');
 
 define("DEV_EMAIL", 'info@s2lsolutions.com'); // Developer Email ID to report the application error
-define('EMAIL_SUBJ', '[S2LSolutions]');
+define('EMAIL_SUBJ', '[S2LSolutions Project]');
 
 // If you have not yet set up the Nohup cronjob, leave it blank
 define('EMAIL_REPLY', "<div style='font-family:Arial;font-size:14px;color:#787878;margin-bottom:5px;'>Just REPLY to this Email the same will be added under the Task. <br/><span style='font-size:11px;'><b>NOTE:</b> Do not remove this original message.</span></div>");

@@ -18,7 +18,7 @@ class SendgridComponent extends EmailComponent
 		$message = str_replace("</script>","&lt;/script&gt;",$message);
 		$message = str_replace("<SCRIPT>","&lt;script&gt;",$message);
 		$message = str_replace("</SCRIPT>","&lt;/script&gt;",$message);
-		$message = preg_replace('/[^(\x20-\x7F)\x0A]*/','', $message);
+		//$message = preg_replace('/[^(\x20-\x7F)\x0A]*/','', $message);
 		
         $this->Email->delivery = EMAIL_DELIVERY;
 		$this->Email->to = $to;

@@ -410,8 +410,8 @@ class ProjectsController extends AppController {
 			$memberslist = array_unique($postProject['Project']['members']);
 		}elseif(!$GLOBALS['project_count']){
 			$memberslist[] = SES_ID;
-		}
-		if(isset($this->params['data']['Project']) && $postProject['Project']['validate'] == 1) {
+		}//isset($this->params['data']['Project'])
+		if($postProject['Project']['validate'] == 1) {
 			$findName = $this->Project->find('first',array('conditions'=>array('Project.name'=>$postProject['Project']['name'],'Project.company_id'=>SES_ID),'fields'=>array('Project.id')));
 			if($findName) {
 				$this->Session->write("ERROR","Project name '".$postProject['Project']['name']."' already exists");

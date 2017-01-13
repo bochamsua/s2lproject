@@ -18,7 +18,8 @@
 
 App::uses('Model', 'Model');
 App::uses('AppModel', 'Model');
-require dirname(dirname(__FILE__)) . DS . 'models.php';
+
+require_once dirname(dirname(__FILE__)) . DS . 'models.php';
 
 /**
  * TreeBehaviorAfterTest class
@@ -30,7 +31,7 @@ class TreeBehaviorAfterTest extends CakeTestCase {
 /**
  * Whether backup global state for each test method or not
  *
- * @var boolean
+ * @var bool
  */
 	public $backupGlobals = false;
 

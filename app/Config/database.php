@@ -42,7 +42,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'root',
-		'database' => 's2lproject',
+		'database' => 's2lproject1',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

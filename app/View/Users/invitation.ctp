@@ -26,8 +26,8 @@ else {
     	<div style="display:table-cell; height:100%; min-height:100%; vertical-align:middle">
         	<div style="position:relative">
             	<div class="bg_logo_inner"></div>
-                <div class="logo_landing"> 
-                        <a href="<?php echo HTTP_HOME; ?>"><img src="<?php echo HTTP_ROOT; ?>img/images/logo_outer.png"  border="0" alt="S2LSolutions.com" title="S2LSolutions.com"/></a>
+                <div class="logo_landing">
+                        <a href="<?php echo HTTP_HOME; ?>">&nbsp;</a>
                 </div>
     <div class="login_table">
         <div <?php if(PAGE_NAME == "home") { ?>class="home" <?php } else { ?>class="home_other" <?php } ?> style="height:100%;display:table">

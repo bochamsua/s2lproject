@@ -894,7 +894,7 @@ class CronController extends AppController{
 		}
 		//print_r($user_details);
 		foreach($user_details AS $key=>$val){
-			$message ='<div><img src="'.HTTP_ROOT.'img/images/logo_outer.png"/><br/>';
+			$message ='<div><br/>';
 			//$message .= "<div style='font-family:verdana;font-size:12px;'>Hi ".$val['User']['name'].'</div><br/>';
 			$timezone_details = '';
 			$timezone_details = $tzone[$val['User']['timezone_id']];

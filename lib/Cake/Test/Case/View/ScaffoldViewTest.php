@@ -21,7 +21,7 @@ App::uses('Scaffold', 'Controller');
 App::uses('ScaffoldView', 'View');
 App::uses('AppModel', 'Model');
 
-require dirname(dirname(__FILE__)) . DS . 'Model' . DS . 'models.php';
+require_once dirname(dirname(__FILE__)) . DS . 'Model' . DS . 'models.php';
 
 /**
  * TestScaffoldView class

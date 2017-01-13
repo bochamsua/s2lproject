@@ -11,7 +11,7 @@ input#txt_Password{font-family: Arial}
             <div style="position:relative; z-index:9;">
                 <div class="bg_logo_inner" style="top:-100px;left:-180px"></div>
                 <div class="logo_landing">
-                    <a href="<?php echo HTTPS_HOME; ?>"><img src="<?php echo HTTP_ROOT; ?>img/images/logo_outer.png?v=<?php echo RELEASE; ?>"  border="0" alt="S2LSolutions.com" title="S2LSolutions.com"/></a>
+                    <a href="<?php echo HTTPS_HOME; ?>">&nbsp;</a>
                 </div>
                 <div class="login_table">
 					<div style="height:100%;display:table; width:100%;">

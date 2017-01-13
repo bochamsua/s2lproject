@@ -11,13 +11,13 @@
  */
 define("EMAIL_DELIVERY", "smtp");
 
-//Make sure to enable "php_openssl" in PHP. In WAMP, you need to enable extension=php_openssl.dll on php.ini file 
+//Make sure to enable "php_openssl" in PHP. In WAMP, you need to enable extension=php_openssl.dll on php.ini file
 
 //Gmail SMTP
 define("SMTP_HOST", "ssl://smtp.gmail.com");
 define("SMTP_PORT", "465");
-define("SMTP_UNAME", "info@s2lsolutions.com");
-define("SMTP_PWORD", "conmeo");
+define("SMTP_UNAME", "noreplys2lsolutions@gmail.com");
+define("SMTP_PWORD", "N0replyS2LS0lutions");
 //https://www.arclab.com/en/amlc/list-of-smtp-and-imap-servers-mailserver-list.html (Get the list of Host names)
 
 ### OR ###
@@ -66,8 +66,8 @@ if(php_sapi_name() === "cli") {
 	$ht = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on')?"https://":"http://";
 	define('PROTOCOL', $ht);
 	if($_SERVER['SERVER_PORT'] != 80)
-		define('DOMAIN', $_SERVER['SERVER_NAME'].":".$_SERVER['SERVER_PORT']."/"); 
-	else	
+		define('DOMAIN', $_SERVER['SERVER_NAME'].":".$_SERVER['SERVER_PORT']."/");
+	else
 		define('DOMAIN', $_SERVER['SERVER_NAME']."/");
 }
 define('HTTP_SERVER',PROTOCOL.DOMAIN);

@@ -11,8 +11,8 @@
     	<div style="display:table-cell; height:100%; min-height:100%; vertical-align:middle">
         	<div style="position:relative">
             	<div class="bg_logo_inner"></div>
-                <div class="logo_landing"> 
-                    <a href="<?php echo HTTPS_HOME; ?>"><img src="<?php echo HTTP_ROOT; ?>img/images/logo_outer.png?v=<?php echo RELEASE; ?>"  border="0" alt="S2LSolutions.com" title="S2LSolutions.com"/></a>
+                <div class="logo_landing">
+                    <a href="<?php echo HTTPS_HOME; ?>">&nbsp;</a>
                 </div>
                 <div class="login_box">
                     <div class="login_dialog" id="login_dialog">
